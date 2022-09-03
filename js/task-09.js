@@ -14,5 +14,4 @@ btn.addEventListener("click", (event) => {
   const color = getRandomHexColor();
   body.style.backgroundColor = color;
   span.textContent = color;
-  console.log(color.slice(1,4))
 });
